@@ -1,0 +1,129 @@
+.container-fluid {
+    background-color: ivory; 
+}
+.titulo {
+    margin: 30px;
+}
+
+#mi-titulo {
+    text-align: center;
+}
+
+#start{
+    width: 100%;
+    height: 50px;
+}
+
+.nro-ronda {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.indicador-turno {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-weight: bolder;
+    font-size: larger;
+   
+}
+
+.estado-juego {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.col-sm{
+    width: 50%;
+    height: 200px;
+    
+}
+
+.col-sm-1 {
+    border-style: solid;
+    border-color: gray;
+    border-radius: 4%;
+    text-align: center;
+}
+
+div[name='columna'] {
+    padding: 0%;
+    margin: 0%;
+}
+
+.zona {
+    width: 50%;
+    height: 100%;
+    border: 2px ;
+    transition: border 500ms ;
+    border-color: black;
+    border-style: solid;
+  
+}
+
+
+#zona-a {
+    background:red;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius:0 ;
+    opacity: 0.5;
+    transition: opacity 500ms;  
+    float: right;
+    box-shadow: "10px 20px 30px blue";
+}
+
+#zona-b {
+    background: green;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 100%;
+    opacity: 0.5;
+    transition: opacity 500ms;
+}
+
+
+#zona-c {
+    background: rgb(255, 0, 221);
+    border-top-left-radius: 100%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    opacity: 0.5;
+    transition: opacity 500ms;
+    float: right;
+}
+
+
+#zona-d {
+    background:orange;
+    border-top-left-radius: 0;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    opacity: 0.5;
+    transition: opacity 1s;
+}
+
+h2 {
+    /*display: none;*/
+    animation-name: felicita;
+    animation-duration: 3s;
+}
+
+@keyframes felicita {
+    0% {opacity: 0; font-size: x-small;}
+    100% {opacity: 1; font-size: xx-large;}
+}
+
+
+
