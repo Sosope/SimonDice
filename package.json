@@ -1,0 +1,23 @@
+{
+  "name": "simondice",
+  "version": "1.0.0",
+  "description": "Realización del juego Simon Dice para el curso r-Argentina Programa",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sosope/SimonDice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sosope/SimonDice/issues"
+  },
+  "homepage": "https://github.com/Sosope/SimonDice#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1"
+  }
+}
