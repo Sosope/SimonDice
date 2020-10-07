@@ -9,3 +9,5 @@
 
  Para realizar el ejercicio utlicé Bootstrap.
 
+ Para poder ver correctamente los estilos utilizados, una vez descargado el proyecto, abra el proyecto con su editor y dentro de la terminal escriba lo siguiente:
+    npm install
